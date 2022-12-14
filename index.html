@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/animate/animate.min.css">
+  <link rel="stylesheet" href="plugins/fontawesome/all.css">
+  <link rel="stylesheet" href="plugins/webfonts/font.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="plugins/uikit/uikit.min.css" />
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <title>CÔNG TY TNHH SẢN XUẤT QUẢNG CÁO
+    VÀ NỘI THẤT GIA VIỆT</title>
+
+</head>
+
+<body>
+  <div class="header">
+    <a style="color: #ffffff;text-decoration: none;font-weight: 800;font-size: 1rem;" href="index.html">CÔNG TY TNHH SẢN
+      XUẤT QUẢNG CÁO
+      VÀ NỘI THẤT GIA VIỆT - <i class="fa-solid fa-envelope"></i> <span>huuvo.giakhang@gmail.com -
+        huuvo@giakhangevent.com</span> - <i class="fa-solid fa-phone icon-phone"></i>
+      <span>090.551.2222 Mr. Vo Huu</span></a>
+  </div>
+
+  <!--Navbar-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" class="logo-top" alt="img-logo">
+      </a>
+      <div class="desk-menu collapse navbar-collapse justify-content-md-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">TRANG CHỦ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#infomation">Về chúng tôi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#information">GIỚI THIỆU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#duan">Dự án</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+          </li>
+        </ul>
+      </div>
+      <div id="offcanvas-flip1" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar" style="background: white;
+        width: 100%;">
+
+          <button class="uk-offcanvas-close" style="color:#272727" type="button" uk-close></button>
+          <h3 style="font-size: 14px;
+          color: #272727;
+          text-transform: uppercase;
+          margin: 3px 0 30px 0;
+          font-weight: 500; letter-spacing: 2px;">MENU</h3>
+          <div class="justify-content-md-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">TRANG CHỦ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Về chúng tôi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#information">GIỚI THIỆU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#duan">Dự án</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">LIÊN HỆ</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar" style="    background: white;
+            width: 350px;">
+
+          <button class="uk-offcanvas-close" style="color:#272727" type="button" uk-close></button>
+
+          <h3 style="font-size: 14px;
+                color: #272727;
+                text-transform: uppercase;
+                margin: 3px 0 30px 0;
+                font-weight: 500; letter-spacing: 2px;">Tìm kiếm</h3>
+          <div class="search-box wpo-wrapper-search">
+            <form action="search" class="searchform searchform-categoris ultimate-search">
+              <div class="wpo-search-inner" style="display:inline">
+                <input type="hidden" name="type" value="product">
+                <input required="" id="inputSearchAuto" name="q" maxlength="40" autocomplete="off"
+                  class="searchinput input-search search-input" type="text" size="20"
+                  placeholder="Tìm kiếm sản phẩm...">
+              </div>
+              <button type="submit" class="btn-search btn" id="search-header-btn">
+                <i style="font-weight:bold" class="fas fa-search"></i>
+              </button>
+            </form>
+            <div id="ajaxSearchResults" class="smart-search-wrapper ajaxSearchResults" style="display: none">
+              <div class="resultsContent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="offcanvas-flip2" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar" style="    background: white;
+            width: 350px;">
+
+          <button class="uk-offcanvas-close" style="color:#272727" type="button" uk-close></button>
+
+          <h3 style="font-size: 14px;
+                color: #272727;
+                text-transform: uppercase;
+                margin: 3px 0 30px 0;
+                font-weight: 500; letter-spacing: 2px;">Giỏ hàng</h3>
+          <!-- <div class="site-nav-container-last" style="color:#272727">
+            <div class="cart-view clearfix">
+              <table id="cart-view">
+                <tbody>
+                  <tr class="item_1">
+                    <td class="img"><a href="" title="Nike Air Max 90 Essential &quot;Grape&quot;"><img
+                          src="https://product.hstatic.net/200000065946/product/pro_trang_tu_quan_ao_vienna_2_canh_1_467a11a7939844999c4b47a8f185146c_grande.jpg"
+                          alt="/products/nike-air-max-90-essential-grape"></a></td>
+                    <td>
+                      <a class="pro-title-view" style="color: #272727" href=""
+                        title="Nike Air Max 90 Essential &quot;Grape&quot;">Tủ Quần Áo Gỗ 2 Cánh MOHO VIENNA 201 4
+                        Màu</a>
+                      <span class="variant">Tím / 36</span>
+                      <span class="pro-quantity-view">1</span>
+                      <span class="pro-price-view">4,800,000₫</span>
+                      <span class="remove_link remove-cart"><a href=""><i style="color: #272727;"
+                            class="fas fa-times"></i></a></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="line"></span>
+              <table class="table-total">
+                <tbody>
+                  <tr>
+                    <td class="text-left">TỔNG TIỀN:</td>
+                    <td class="text-right" id="total-view-cart">4,800,000₫</td>
+                  </tr>
+                  <tr>
+                    <td class="distance-td"><a href="" class="linktocart button dark">Xem giỏ hàng</a></td>
+                    <td><a href="" class="linktocheckout button dark">Thanh toán</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <a href="" target="_blank" class="button btn-check" style="text-decoration:none;"><span>Click nhận mã giảm
+                  giá ngay !</span></a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="icon-ol">
+        <a style="color: #272727" href="signin.html">
+          <i class="fas fa-user-alt"></i>
+        </a>
+        <a href="#" class="" uk-toggle="target: #offcanvas-flip">
+          <i class="fas fa-search" style="color: black"></i>
+        </a>
+
+        <a style="color: #272727" href="#" uk-toggle="target: #offcanvas-flip2">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <button class="navbar-toggler" type="button" uk-toggle="target: #offcanvas-flip1" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    </div>
+
+  </nav>
+  <!-- Owl-Carousel -->
+  <div class="owl-carousel owl-theme owl-carousel-setting">
+    <div class="item"><img src="images/banner/banner1.jpg" class="d-block w-100" alt="..."></div>
+    <div class="item"><img src="images/banner/banner2.jpg" class="d-block w-100" alt="..."></div>
+    <div class="item"><img src="images/banner/banner3.jpg" class="d-block w-100" alt="..."></div>
+  </div>
+
+  <!--Content-->
+  <div class="content">
+    <div class="container">
+      <div class="box-profile">
+        <div class="box-element">
+          <div class="box-text">
+            <div class="box-icon">
+              <i class="fa-solid fa-info"></i>
+            </div>
+            <div class="box-title">
+              <h4>Giới thiệu</h4>
+            </div>
+            <div class="box-btn">
+              <button><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-element">
+          <div class="box-text">
+            <div class="box-icon">
+              <i class="fa-brands fa-product-hunt"></i>
+            </div>
+            <div class="box-title">
+              <h4>Sản phẩm</h4>
+            </div>
+            <div class="box-btn">
+              <button><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-element">
+          <div class="box-text">
+            <div class="box-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="box-title">
+              <h4>Đặt hàng</h4>
+            </div>
+            <div class="box-btn">
+              <button><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-element">
+          <div class="box-text">
+            <div class="box-icon">
+              <i class="fa-solid fa-address-book"></i>
+            </div>
+            <div class="box-title">
+              <h4>Liên hệ</h4>
+            </div>
+            <div class="box-btn">
+              <button><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content IMG -->
+    <div id="infomation">
+      <div class="content-img">
+        <div class="img-introduce">
+          <div class="img-introduce-group">
+            <img class="img-introduce-big" src="https://demo.7iquid.com/steeler/wp-content/uploads/2021/03/h6_left1.jpg"
+              alt="">
+          </div>
+          <div class="img-introduce-group">
+            <img class="img-introduce-small" src="https://demo.7iquid.com/steeler/wp-content/uploads/2021/03/h6_left2.jpg"
+              alt="">
+          </div>
+          <div class="img-child">
+            <img src="https://demo.7iquid.com/steeler/wp-content/uploads/2021/03/h6_slider1.jpg" alt=""
+              class="child-position">
+          </div>
+        </div>
+        <div class="introduce-text">
+          <h5 class="welcome-text">Chào mừng bạn đã đến với Gia Việt</h5>
+          <h4 class="title-introduce">CÔNG TY TNHH SẢN XUẤT QUẢNG CÁO
+            VÀ NỘI THẤT GIA VIỆT</h4>
+          <p class="description-introduce">
+            Đến với <strong>Gia Việt</strong> để cảm nhận sự khác biệt từ một thương hiệu chuyên sâu với chi phí hợp lý.
+            <strong>Gia Việt</strong> là công ty thiết kế sáng tạo, giúp khách hàng trước khi làm việc với <strong>Gia
+              Việt</strong>
+            có một cái nhìn trực quan nhất về chất lượng sản phẩm và nghệ thuật sắp xếp bày trí.
+            Chất lượng sản phẩm đạt chuẩn với mức giá RẺ hơn #10% so thị trường vì sự CHUYÊN SÂU DUY NHẤT giúp <strong>Gia
+              Việt</strong>
+            tối ưu hóa được điều đó, máy móc và người thợ làm việc dưới quy trình nghiêm ngặt chuyên môn hoá cao và cùng
+            với dịch vụ sau bán hàng xuyên suốt trong thời gian dài mang lại cho khách
+            hàng sự an tâm tuyệt đối khi sử dụng.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="duan">
+      <div class="product-carousel">
+        <div class="productCarousel-title">
+          <h3>Sản xuất quảng cáo</h3>
+          <div class="line"></div>
+        </div>
+  
+        <!-- Tiger -->
+        <div class="product-tiger">
+          <div class="tiger-title">
+            <h3>Tiger</h3>
+          </div>
+          <div class="main-carousel">
+            <div class="cell"><img src="images/product/tiger5.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/tiger1.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/tiger2.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/tiger3.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/tiger4.jpg" alt="img-carousel" class="cell-img"></div>
+          </div>
+        </div>
+  
+        <!-- Heineken -->
+        <div class="product-heineken">
+          <div class="heineken-title">
+            <h3>Heineken</h3>
+          </div>
+          <div class="main-carousel">
+            <div class="cell"><img src="images/product/Heineken 4.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/Heineken 2.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/Heineken 1.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/Heineken 3.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/Heineken 5.jpg" alt="img-carousel" class="cell-img"></div>
+          </div>
+        </div>
+  
+        <!-- Nutifood -->
+        <div class="product-nutifood">
+          <div class="nutifood-title">
+            <h3>Nutifood</h3>
+          </div>
+          <div class="main-carousel">
+            <div class="cell"><img src="images/product/nootifood.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/nootifood1.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/nootifood2.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/nootifood3.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/nootifood4.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/nootifood5.jpg" alt="img-carousel" class="cell-img"></div>
+          </div>
+        </div>
+  
+        <!-- Aeonmall -->
+        <div class="product-aeonmall">
+          <div class="aeonmall-title">
+            <h3>Aeonmall</h3>
+          </div>
+          <div class="main-carousel">
+            <div class="cell"><img src="images/product/aeonmall.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall1.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall2.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall3.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall4.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall5.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall5.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall6.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall7.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall8.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall9.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall10.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall11.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall12.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall13.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall14.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall15.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall16.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall17.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall18.jpg" alt="img-carousel" class="cell-img"></div>
+            <div class="cell"><img src="images/product/aeonmall19.jpg" alt="img-carousel" class="cell-img"></div>
+          </div>
+        </div>
+  
+        <!-- MSI -->
+        <div class="product-msi">
+          <div class="msi-title">
+            <h3>MSI</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/msi1.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/msi2.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/msi3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Vinatoy -->
+        <div class="product-vinatoy">
+          <div class="vinatoy-title">
+            <h3>Vinatoy</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/vinatoy.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/vinatoy1.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/vinatoy2.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/vinatoy3.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/vinatoy4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Vinatoy -->
+        <div class="product-tuborg">
+          <div class="tuborg-title">
+            <h3>Tuborg</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/tuborg.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/tuborg1.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/tuborg2.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/tuborg3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- VSGLASS -->
+        <div class="product-vsglass">
+          <div class="vsglass-title">
+            <h3>Vsglass</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/vglagas.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Solite -->
+        <div class="product-solite">
+          <div class="solite-title">
+            <h3>Solite</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/solite.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/solite1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Lazada -->
+        <div class="product-lazada">
+          <div class="lazada-title">
+            <h3>Lazada</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/lazada.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/lazada 2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Hong Nghi -->
+        <div class="product-hongnghi">
+          <div class="hongnghi-title">
+            <h3>Hong Nghi</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/hongnghi.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/hongnghi1.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/hongnghi2.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/hongnghi3.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/hongnghi4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Novaland -->
+        <div class="product-novaland">
+          <div class="novaland-title">
+            <h3>Novaland</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/novaland1.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/novaland2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Pru Force -->
+        <div class="product-pruforce">
+          <div class="pruforce-title">
+            <h3>Pru Force</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/prufoce.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/prufoce1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Robina -->
+        <div class="product-robina">
+          <div class="robina-title">
+            <h3>Robina</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/robina.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/robina2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Laurue Smooth -->
+        <div class="product-laurue">
+          <div class="laurue-title">
+            <h3>Laurue Smooth</h3>
+          </div>
+          <div class="bg-img">
+            <div class="group-img">
+              <img src="images/product/lauruemooth.jpg" alt="">
+            </div>
+            <div class="group-img">
+              <img src="images/product/lauruemooth1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--gallery-->
+    <section class="section section-gallery">
+      <div class="">
+        <div class="hot_sp" style="padding-bottom: 30px;">
+          <h2 style="text-align:center;padding-top: 10px">
+            <a style="font-size: 28px;color: black;text-decoration: none; text-transform: uppercase;font-weight: 700;"
+              href="#">Sản phẩm nội thất</a>
+          </h2>
+        </div>
+        <div class="list-gallery clearfix">
+          <ul class="shoes-gp">
+            <li>
+              <div class="gallery_item">
+                <img style="height: 249px;" class="img-resize" src="images/furniture/img1.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery_item">
+                <img style="height: 249px;" class="img-resize" src="images/furniture/img2.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery_item">
+                <img style="height: 249px;" class="img-resize" src="images/furniture/img3.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery_item">
+                <img style="height: 249px;" class="img-resize" src="images/furniture/img4.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery_item">
+                <img style="height: 249px;" class="img-resize" src="images/furniture/img5.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <div class="gallery_item">
+                <img style="height: 249px;" class="img-resize" src="images/furniture/img6.jpg" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="footer-col footer-block">
+                <h4 class="footer-title">
+                  Giới thiệu
+                </h4>
+                <div class="footer-content">
+                  <p>Gia Việt quảng cáo và mua sắm nội thất trực tuyến.</p>
+                  <div class="social-list">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-google"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                    <a href="#" class="fab fa-skype"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="footer-col footer-link">
+                <h4 class="footer-title">
+                  PHÁP LÝ &amp; CÂU HỎI
+                </h4>
+                <div class="footer-content toggle-footer">
+                  <ul>
+                    <li class="item">
+                      <a href="#" title="Tìm kiếm">Tìm kiếm</a>
+                    </li>
+                    <li class="item">
+                      <a href="#" title="Giới thiệu">Giới thiệu</a>
+                    </li>
+                    <li class="item">
+                      <a href="#" title="Chính sách đổi trả">Chính sách đổi trả</a>
+                    </li>
+                    <li class="item">
+                      <a href="#" title="Chính sách bảo mật">Chính sách bảo mật</a>
+                    </li>
+                    <li class="item">
+                      <a href="#" title="Điều khoản dịch vụ">Điều khoản dịch vụ</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="footer-col footer-block">
+                <h4 class="footer-title">
+                  Thông tin liên hệ
+                </h4>
+                <div class="footer-content toggle-footer">
+                  <ul>
+                    <li><span>Địa chỉ:</span> 70/2 Thạnh Xuân 38, Quận 12, TP. Hồ Chí Minh, Vietnam</li>
+                    <li><span>Điện thoại: 090.551.2222 Mr. Vo Huu</span></li>
+                    <li><span>Fax: 090.551.2222</span></li>
+                    <li><span>Mail: huuvo.giakhang@gmail.com - huuvo@giakhangevent.com</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="footer-col footer-block">
+                <h4 class="footer-title">
+                  FANPAGE
+                </h4>
+                <div class="footer-content">
+                  <div id="fb-root">
+                    <div class="footer-static-content">
+                      <div class="fb-page" data-href="giaviet" data-tabs="timeline" data-width="" data-height="215"
+                        data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                        data-show-facepile="true">
+                        <blockquote cite="giaviet" class="fb-xfbml-parse-ignore"><a href="#">CÔNG TY TNHH SẢN XUẤT QUẢNG
+                            CÁO
+                            VÀ NỘI THẤT <strong>GIA VIỆT</strong></a>
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer--copyright">
+        <div class="container">
+          <hr>
+          <div class="main-footer--border" style="text-align:center;padding-bottom: 15px;">
+            <p>Copyright © 2022 <a href="#"> Gia Việt</a>. <a target="_blank" href="#">Powered by giangreactjs</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      wrapAround: true,
+      freeScroll: true
+    });
+  </script>
+  <script async defer crossorigin="anonymous" src="plugins/sdk.js"></script>
+  <script src="plugins/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="plugins/bootstrap/popper.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/owl.carousel/owl.carousel.min.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/script.js"></script>
+  <script src="plugins/uikit/uikit.min.js"></script>
+  <script src="plugins/uikit/uikit-icons.min.js"></script>
+</body>
+
+</html>
